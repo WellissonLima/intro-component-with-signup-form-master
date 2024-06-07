@@ -1,0 +1,62 @@
+body{
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: var(--primary-red); 
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.signup{
+    height: 97vh;
+    width: 100%;
+    padding: 80px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup .info{
+    max-width: 550px;
+    padding: 30px;
+}
+
+.signup .info .title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.signup .info .text{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.signup .registration{
+    max-width: 550px;
+}
+
+.signup .registration .offer{
+    background-color: var(--primary-accent);
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.125);
+    margin-bottom: 20px;
+}
+
+.signup .registration .register{
+    background-color: #fff;
+    padding: 35px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
