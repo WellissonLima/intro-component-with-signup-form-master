@@ -1,0 +1,26 @@
+@media(max-width: 790px) {
+    body {
+        background-image: url(../images/bg-intro-mobile.png);
+
+        position: relative;
+    }
+
+    .signup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 20px;
+        height: auto;
+    }
+
+    .signup .registration{
+        max-width: 650px;
+        padding-bottom: 0px;
+    }
+
+    .signup .registration .offer{
+        padding: 10px 50px;
+        height: auto;
+    }    
+}

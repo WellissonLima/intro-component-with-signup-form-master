@@ -19,6 +19,7 @@ body{
 
 .signup .info{
     max-width: 550px;
+    height: auto;
     padding: 30px;
 }
 
@@ -35,7 +36,7 @@ body{
 }
 
 .signup .registration{
-    width: 690px;
+    max-width: 690px;
 }
 
 .signup .registration .offer{
