@@ -40,14 +40,18 @@
 
       <div class="register">
         <input type="text" class="my-input" placeholder="First Name" />
+        <span class="error-message">First name cannot be empty</span>
         <br>
         <input type="text" class="my-input" placeholder="Last Name" />
+        <span class="error-message">Last name cannot be empty</span>
         <br>
         <input type="email" class="my-input" placeholder="Email Address" />
+        <span class="error-message">Looks like this is not an email</span>
         <br>
         <input type="password" class="my-input" placeholder="Password" />
+        <span class="error-message ">Password cannot be empty</span>
         <br>
-        <button type="submit" class="btn-claim">
+        <button type="submit" class="btn-claim" id="btnClaim">
           Claim your free trial
         </button>
 
@@ -63,6 +67,8 @@
       Coded by <a href="#">Wellisson Lima</a>.
     </p>
   </footer>
+
+  <script src="./src/js/index.js"></script>
 </body>
 
 </html>
