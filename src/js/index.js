@@ -26,5 +26,22 @@ btnClaim.addEventListener("click", (event) => {
                 input.nextElementSibling.classList.remove("mostrar")
             }
         }
+
+        if(input.type === "email" && input.value.trim() !== "") {
+            if(!validateEmail(input.value.trim())) {
+                input.classList.add("alert-error");
+                input.nextElementSibling.classList.add("mostrar");
+                input.placeholder = "email@exemple.com";
+                input.classList.add("error-placeholder");
+            } else {
+                input.classList.remove("alert-error");
+                input.nextElementSibling.classList.remove("mostrar");
+            }
+        }
     });
 });
+
+function validateEmail(email){
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+}
