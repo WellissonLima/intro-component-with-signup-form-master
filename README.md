@@ -4,7 +4,7 @@
 
 ## Bem Vindo! 👋
 
-Esse projeto foi desenvolvido como uma desafio para testar as minhas habilidades em HTML e CSS e Javascript.
+Esse projeto foi desenvolvido como um desafio para testar as minhas habilidades em HTML e CSS e Javascript.
 
 Ele foi feito através do [Frontend Mentor](https://www.frontendmentor.io)
 
